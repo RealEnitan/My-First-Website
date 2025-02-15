@@ -13,6 +13,37 @@
     <title> My Personal Profile Page </title>
 
 
+    <style>
+
+        .links-div{
+           
+            flex-direction: column;
+
+         }
+
+         a{
+            margin: 10px;
+            padding: 10px;
+            text-decoration: none;
+            color: black; font-style: italic;
+            display: inline-block;
+         }
+
+        thead{
+            background-color: aquamarine;
+            color: black;
+        }
+
+        tbody{
+            background-color: azure;
+        }
+
+        tfoot{
+            background-color: beige;
+        }
+
+
+    </style>
 
 
 </head>
@@ -21,19 +52,144 @@
 
 <body>
 
-    <h1 style="color: rgb(51, 17, 17);"> My name is Oluwatoyin Olatimehin</h1>
+    <h1 style="color: rgb(51, 17, 17);"> My name is Oluwatoyin Olatimehin </h1>
 
-    <div style="background-color: blueviolet; color: whitesmoke; display: inline-block; padding:10px; font-style: italic;" > 
+    
+    <a style="background-color: rgb(195, 195, 43);" href="#about_me"> click here to know about me </a>
 
-        <p> I am a Data Engineer and Frontend Developer with a decade of experience in Customer Eperience and Business Development. <p>
-        <p> My focus is on leveraging data to drive insights and solutions that enhance business performance and customer relationships</p>
+
+    <div class="parent-div" style="display: flex;">
+
+
+        <div style="background-color: blueviolet; color: whitesmoke;  display: inline-block; max-height: 1000px; max-width: 800px; padding: 30px 30px;" > 
+
+            <p> I am a Data Engineer and Frontend Developer with a decade of experience in Customer Eperience and Business Development. <p>
+            <p> My focus is on leveraging data to drive insights and solutions that enhance business performance and customer relationships.</p>
+            <p> Frontend development and data engineering are two critical components that work together to deliver exceptional customer experiences.</p>
+            
+            <h3> The connection between these 3 areas of expertise</h3>
+                
+            <p>- Frontend development focuses on crafting intuitive, responsive, and engaging user interfaces that capture customer interactions and behaviors.</p>
+                - Data engineering, on the other hand, enables the collection, processing, and analysis of customer data, providing valuable insights into their preferences, pain points, and expectations.
+                
+            <p>When combined, these two disciplines empower businesses to:</p>
+                
+            <p> - Create personalized experiences tailored to individual customer needs</p>
+                - Optimize UI/UX elements based on data-driven insights
+            <p> - Develop predictive models that anticipate customer behavior</p>
+                - Deliver timely, relevant, and contextual interactions that drive engagement and loyalty   
+                
+            <p> By integrating frontend development and data engineering, businesses can unlock the full potential of customer experience, driving growth, satisfaction, and long-term loyalty.</p>
+            
+        </div>
+
+
+        <div>
+
+            <img src="/images/WhatsApp Image2.jpg" alt="this is Oluwatoyin" width="400px" height="600px" style="border-radius: 10px;"/>
+
+        </div>
+        
 
     </div>
 
+
+
+    <div class="links-div"> 
+
+        <a style="background-color: beige;" href="https://www.linkedin.com/in/oluwatoyinsekoni-olatimehin", target="_blank" style="margin: 10px;"> 
+
+            click here to go to my Linkedin page
+         
+        </a>
+         
+    </div>
+    
     
 
+    <h2 style="background-color: aliceblue; margin-top: 20px;"> About Me</h2>
+
+    <p> I love reading, dancing cooking and baking. Below the list of desserts I love baking for my family: </p>
 
 
 
+    <ol id="about_me">
+
+        <li> Cookies</li>
+        <li> Bread </li>
+        <li> Biscuit</li>
+        <li> Brownie</li>
+        <li> Cake: Red velvet, Vanilla and Chocolate </li>
+        <li> Pastries: Doughtnut, Burger, Hotdog, Rolls etc  </li>
+        
+
+    </ol>
+
+
+   
+
+
+   <table border="5" cellspacing="10px" cellpadding="10px" style="margin-top:20px ;">
+
+    <thead>
+
+        <tr>
+
+            <th> Hobbies </th>
+            <th> My reasons </th>
+
+        </tr>
+
+    </thead>
+
+    <tbody>
+
+        <tr>
+            <td> Reading </td>
+            <td> This is how i gather knowledge </td>
+            
+        </tr>
+
+        <tr>
+
+            <td> Dancing </td>
+            <td> It helps me keep in shape </td>
+
+        </tr>
+
+        <tr>
+            <td> Baking </td>
+            <td> I am a foodie, and enjoy sharing my desserts </td>
+
+        </tr>
+
+    </tbody>
+
+    <tfoot>
+
+        <tr>
+
+            <td colspan="3">
+                This is how I unwind
+            </td>
+
+        </tr>
+
+    </tfoot>
+
+
+</table>
+
+
+    <a style="background-color: rgb(237, 237, 156);"href="about.html "> click here to go to reach out to us </a> 
+
+
+
+    
 </body>
+
+
+
+
+
 </html>
